@@ -110,28 +110,29 @@ nav a {
     font-size: 13px;
     color: #FFF;
     text-decoration:none;
-    width: 100%;
+    padding: 0 23.5px;
+    margin: 0;
 }
 .nav-scroll li:hover {
     background-color: #0075a6;
 }
 .home-scroll {
-    width: 149px;
+    /*width: 149px;*/
 }
 .search-scroll {
-    width: 169px;
+    /*width: 169px;*/
 }
 .award-scroll {
-    width: 169px;
+    /*width: 169px;*/
 }
 .file-edit-scroll {
-    width: 169px
+    /*width: 169px*/
 }
 .social-network-scroll {
-    width: 169px;
+    /*width: 169px;*/
 }
 .lock-scroll {
-    width: 165px;
+    /*width: 165px;*/
 }
 /* END CSS for Navigation Bar show when scroll down */
 
@@ -164,7 +165,7 @@ nav a {
     height: 50px;
     float: left;
     cursor: pointer;
-    width: 165px;
+    width: 145px;
     overflow: hidden;
 }
 .nav-show li a {
@@ -175,43 +176,57 @@ nav a {
 .nav-show li:hover {
     background-color: #0075a6;
 }
+
 .home {
-    background:url("../images/home.png") no-repeat 40px 12px transparent;
+    background: url(../images/home.png) no-repeat 21px 12px transparent;
 }
-.home a{
+.home a {
     margin-top: 16px;
     margin-left: 35px;
 }
+.nav-show li.home {
+    width: 122px;
+}
+
 .search {
-    background:url("../images/search.png") no-repeat 27px 12px transparent;
+    background:url("../images/search.png") no-repeat 17px 12px transparent;
 }
 .search a{
     margin-top: 8px;
     margin-left: 27px;
 }
 .award {
-    background:url("../images/award.png") no-repeat 32px 12px transparent;
+    background:url("../images/award.png") no-repeat 25px 12px transparent;
 }
 .award a{
     margin-top: 16px;
     margin-left: 27px;
 }
 .file-edit {
-    background:url("../images/file-edit.png") no-repeat 25px 12px transparent;
+    background:url("../images/file-edit.png") no-repeat 16px 12px transparent;
 }
 .file-edit a{
     margin-top: 8px;
     margin-left: 25px;
 }
 .social-network {
-    background:url("../images/social-network.png") no-repeat 20px 12px transparent;
+    background:url("../images/social-network.png") no-repeat 9px 12px transparent;
 }
 .social-network a{
     margin-top: 8px;
     margin-left: 28px;
 }
+
+.program {
+    background:url("../images/menu-icon-note.png") no-repeat 9px 12px transparent;
+}
+.program a {
+    margin-top: 8px;
+    margin-left: 28px;
+}
+
 .lock {
-    background:url("../images/lock.png") no-repeat 35px 12px transparent;
+    background:url("../images/lock.png") no-repeat 25px 12px transparent;
 }
 .lock a{
     margin-top: 16px;
