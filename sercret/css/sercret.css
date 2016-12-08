@@ -1,0 +1,39 @@
+.line2 {
+    padding-top:21px;
+    float: left;
+    width:402px;
+}
+.top-content {
+    display: inline-block;
+    width: 960px;
+}
+.block{
+    width: 960px;
+    display: inline-block;
+    text-align: left;
+    color: #393939;
+}
+.block p{
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin: 0 0 8px 0;
+    line-height: 24px;
+}
+.scroll-up {
+    margin-top: 36px;
+}
+td {
+    padding-right: 10px;
+}
+table {
+    line-height: 28px;
+    margin-bottom: 16px;
+}
+.block  a{
+    color: #42b2e0;
+    text-decoration: none;
+}
+.block  a:hover{
+    text-decoration: underline;
+    opacity: 0.7;
+}

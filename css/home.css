@@ -1,0 +1,102 @@
+.line {
+    padding-top:21px;
+    float: left;
+    width:420px;
+}
+.content .container p {
+    text-align: left;
+    color: #4d4d4d;
+    line-height: 27px;
+    padding-bottom: 0;
+    letter-spacing:1px;
+    margin-bottom: 32px;
+}
+.content .container p:last-child{
+    margin-bottom: 70px;
+}
+.date {
+    background-color: #FFF;
+    height: 60px;
+    width: 360px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 70px;
+}
+.date p{
+    float:left;
+    margin: 0 0 0 25px;
+    line-height: 60px;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+.date p:first-child {
+    font-size: 22px;
+    color: #ff0000;
+    float: none;
+    margin: 0;
+}
+.table-news {
+    width:960px;
+    max-height: 182px;
+
+    overflow-y: scroll;
+    margin: 0 auto 70px;
+    background: #fff;
+}
+.table-news::-webkit-scrollbar {
+    -webkit-appearance: none;
+}
+
+.table-news::-webkit-scrollbar:vertical {
+    width: 8px;
+}
+
+.table-news::-webkit-scrollbar:horizontal {
+    height: 8px;
+}
+
+.table-news::-webkit-scrollbar-thumb {
+    border: 2px solid white; /* should match background, can't be transparent */
+    background-color: rgba(0, 0, 0, .5);
+}
+
+.table-news::-webkit-scrollbar-track {
+    border-radius: 8px;
+}
+.text-news{
+    font-size: 17px;
+    font-weight: bold;
+    color: #4d4d4d;
+    letter-spacing: 1px;
+    margin: 80px auto 0;
+    padding: 14px 0 14px 20px;
+    width: 940px;
+    text-align: left;
+    background: #e6e6e6;
+}
+.table-news .date-news {
+    width: 100px;
+    float: left;
+    height: 60px;
+    margin: 0 0 0 20px;
+    line-height: 60px;
+    text-align: left;
+}
+.table-news .content-news {
+    width: 820px;
+    float: left;
+    height: 60px;
+    margin:0;
+    text-align: left;
+    line-height: 60px;
+}
+.table-news .line-news {
+    margin: 0 0 0 20px;
+    float: left;
+    height: 2px;
+    position: relative;
+    top: -10px;
+}
+.table-news .date-news.none{
+    width: 820px;
+}

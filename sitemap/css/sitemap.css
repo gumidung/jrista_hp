@@ -1,0 +1,41 @@
+.line2 {
+    padding-top:21px;
+    float: left;
+    width:372px;
+}
+.top-content {
+    display: inline-block;
+    width: 960px;
+}
+input.btn {
+    background: #FFF url(../images/btn-icon.png) no-repeat 286px center;
+    width: 308px;
+    height: 44px;
+    border: 0;
+    padding-top: 6px;
+    padding-left: 15px;
+    text-align: left;
+    color: #393939;
+    outline: none;
+    margin-bottom: 20px;
+    margin-right: 12px;
+    font-size: 17px;
+}
+input.btn:hover {
+    background: #FFF url(../images/btn-icon.png) no-repeat 283px center;
+    border: 3px #2ca3d4 solid;
+    color: #2ca3d4;
+    padding-left: 12.4px;
+}
+input.btn.last {
+    margin-right: 0;
+}
+.block{
+    width: 960px;
+    display: inline-block;
+    text-align: left;
+    color: #393939;
+}
+.scroll-up {
+    margin-top: 110px;
+}

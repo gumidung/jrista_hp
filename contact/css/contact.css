@@ -1,0 +1,138 @@
+.line2 {
+    padding-top:21px;
+    float: left;
+    width:370px;
+}
+.content .container p {
+    text-align: left;
+    color: #4d4d4d;
+    line-height: 24px;
+    padding-bottom: 0;
+    letter-spacing:1px;
+    margin-bottom: 32px;
+}
+.content .container p:last-child{
+    margin-bottom: 45px;
+}
+.fill-out {
+    background-color: #FFF;
+    margin-bottom: 42px;
+    margin-top:80px;
+}
+tbody {
+    display: inline-block;
+}
+th {
+    margin-left:30px;
+    float: left;
+    font-size: 15px;
+    font-weight: normal;
+    color: #4d4d4d;
+    float: left;
+    width: 200px;
+    text-align: left;
+    line-height: 66px;
+    vertical-align: top;
+}
+.normal-txt {
+    float: left;
+    margin: 0;
+    font-size: 15px;
+    padding: 0;
+
+}
+.require {
+    float: left;
+    margin: 0;
+    padding-left: 5px;
+    font-size: 13px;
+    color: #e94242;
+}
+.input-text {
+    width: 303px;
+    height: 30px;
+    margin-top: 13px;
+    margin-bottom: 13px;
+    padding-left: 8px;
+}
+.input-long-text {
+    height: 124px;
+    width: 678px;
+    margin-top: 13px;
+    margin-bottom: 6px;
+    padding-left: 8px;
+    padding-top: 10px;
+}
+.content .fill-out {
+    text-align: left;
+}
+.button {
+    padding-top: 32px;
+    text-align: center;
+}
+.button button {
+    width: 200px;
+    height: 35px;
+    border: 0;
+    margin: 0 0 50px 0;
+    padding: 0;
+    background-color: #4cb0da;
+    color: #FFF;
+    font-size: 19px;
+    border-radius: 4px;
+}
+.styled-select {
+    width: 315px;
+    height: 33px;
+    overflow: hidden;
+    background: url(../images/combo.jpg) no-repeat right #FFF;
+    border: 0;
+    display: inline-block;
+    margin-top: 10px;
+    margin-bottom: 5px;
+
+}
+.text-shadow {
+    color: #cccccc;
+    display: inline-block;
+    padding-left: 8px;
+    padding-top:7px;
+}
+.menu {
+    cursor: pointer;
+    position: absolute;
+    outline: 0;
+    background: #ffffff;
+    display: none;
+    font-size: 10;
+    text-shadow: none;
+    text-align: left;
+    border: 1px solid #cccccc;
+    margin-top: 2px;
+    width: 313px;
+    margin-left: -1px;
+}
+.cbx {
+    height: 30px;
+    border: 1px solid #cccccc;
+    cursor: pointer;
+}
+.item {
+    padding: 10px 0 0 8px;
+}
+.item.last {
+    padding-bottom: 5px;
+}
+.menu.show-menu {
+    display: block;
+}
+.text-shadow.show-item {
+    color: #4d4d4d;
+}
+.item.show-item {
+    background-color: #eeeeee;
+}
+table td p{
+    margin: -8px 0 -3px 0;
+    color: #f44522;
+}

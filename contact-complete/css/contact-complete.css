@@ -1,0 +1,58 @@
+.line2 {
+    padding-top:21px;
+    float: left;
+    width:370px;
+}
+.top-content {
+    display: inline-block;
+    width: 960px;
+}
+.content .container p {
+    text-align: left;
+    color: #4d4d4d;
+    line-height: 24px;
+    padding-bottom: 0;
+    letter-spacing:1px;
+    margin-bottom: 32px;
+}
+.content .container p:last-child{
+    margin-bottom: 45px;
+}
+.fill-out {
+    background-color: #FFF;
+    margin-bottom: 42px;
+    margin-top:30px;
+    display: inline-block;
+    width: 100%;
+}
+
+.content .fill-out {
+    text-align: center;
+}
+.button {
+    padding-top: 65px;
+    text-align: center;
+}
+.button button {
+    width: 200px;
+    height: 35px;
+    border: 0;
+    margin: 0 20px 65px 20px;
+    padding: 0;
+    background-color: #4cb0da;
+    color: #FFF;
+    font-size: 19px;
+    border-radius: 4px;
+}
+.complete {
+    margin-top: 60px;
+    margin-bottom: 10px;
+    font-size: 24px;
+    font-weight: bold;
+}
+p {
+    margin-top: 30px;
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 0;
+}

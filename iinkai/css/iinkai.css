@@ -1,0 +1,51 @@
+
+.line2 {
+    padding-top:21px;
+    float: left;
+    width:262px;
+}
+.top-content {
+    display: inline-block;
+    width: 960px;
+}
+.block{
+    width: 960px;
+    display: inline-block;
+    text-align: left;
+    color: #393939;
+}
+.block p{
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin: 0 0 30px 0;
+    line-height: 24px;
+}
+.scroll-up {
+    margin-top: 15px;
+}
+.block .new-text{
+    text-align: center;
+    margin-top:10px;
+    padding-top: 15px;
+    padding-bottom:30px;
+    background: #FFF;
+
+}
+.block .new-text p{
+    margin:0;
+}
+.block .new-text p.top{
+    font-weight: bold;
+    font-size: 17px;
+    margin-bottom:20px;
+}
+.block .new-text .bold{
+    font-weight: bold;
+    font-size: 16px;
+    margin:8px 0 2px 0;
+}
+.block .new-text .last-text {
+    margin-top:20px;
+    text-align: right;
+    margin-right: 30px;
+}

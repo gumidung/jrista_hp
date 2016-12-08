@@ -1,0 +1,43 @@
+.line2 {
+    padding-top:21px;
+    float: left;
+    width:404px;
+}
+.top-content {
+    display: inline-block;
+    width: 960px;
+}
+.block{
+    width: 960px;
+    display: inline-block;
+    text-align: left;
+    color: #393939;
+}
+.block p{
+    font-size: 17px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+.block table {
+    letter-spacing: 1px;
+    margin-bottom: 28px;
+}
+.block td{
+    line-height: 25px;
+    padding-right: 10px;
+    vertical-align: top;
+}
+.block  .last {
+    font-size: 15px;
+    font-weight: normal;
+    margin-bottom: 55px;
+}
+.block  .last a{
+    color: #42b2e0;
+    text-decoration: none;
+}
+.block  .last a:hover{
+    text-decoration: underline;
+    opacity: 0.7;
+}
