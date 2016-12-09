@@ -64,16 +64,14 @@
     line-height: 29px;
 }
 
-.child-block p span {
-    display: block;
-}
-
 .child-block p .dot{
     float: left;
+    display: block;
 }
 
 .child-block p .text {
     overflow: hidden;
+    display: block;
 }
 
 
