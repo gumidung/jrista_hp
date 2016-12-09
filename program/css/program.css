@@ -1,3 +1,55 @@
+.line2 {
+  padding-top: 21px;
+  float: left;
+  width: 309px; }
 
+.top-content {
+  display: inline-block;
+  width: 960px; }
+
+.block {
+  margin-top: 23px;
+  margin-bottom: 56px;
+  border: 1px solid #e2e2e2;
+  background-color: #fff;
+  -webkit-border-radius: 5px 5px 10px 10px;
+  -moz-border-radius: 5px 5px 10px 10px;
+  border-radius: 5px 5px 10px 10px; }
+  .block .block__title {
+    background-color: #ebebeb;
+    color: #4d4d4d;
+    font-weight: bold;
+    padding-left: 20px;
+    height: 48px;
+    line-height: 52px; }
+  .block .block__content {
+    padding: 13px 20px 0; }
+    .block .block__content .block__content__th {
+      background: url("../img/border-dot.png") repeat-x bottom;
+      height: 38px;
+      line-height: 38px;
+      color: #999999; }
+      .block .block__content .block__content__th .block__content__th__td {
+        float: left; }
+    .block .block__content .block__content__td {
+      height: 500px;
+      overflow-y: scroll; }
+      .block .block__content .block__content__td table {
+        width: 100%; }
+      .block .block__content .block__content__td tr {
+        background: url("../img/border-dot.png") repeat-x bottom; }
+        .block .block__content .block__content__td tr:last-child {
+          background: none; }
+      .block .block__content .block__content__td td {
+        height: 85px; }
+    .block .block__content .block__content__td-01 {
+      width: 495px;
+      padding-left: 20px;
+      box-sizing: border-box; }
+    .block .block__content .block__content__td-02 {
+      width: 170px; }
+
+.page-top {
+  text-align: center; }
 
 /*# sourceMappingURL=program.css.map */
