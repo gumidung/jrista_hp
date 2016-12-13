@@ -1,5 +1,5 @@
 $(document).ready(function(){
-    $('#link-popup').click(function(){
+    $('.link-popup').click(function(){
         // var q = new Date();
         // var m = ('0'+(q.getMonth()+1)).slice(-2);
         // var d = ('0'+q.getDate()).slice(-2);
