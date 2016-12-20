@@ -31,17 +31,17 @@
       color: #999999; }
       .block .block__content .block__content__th .block__content__th__td {
         float: left; }
-    .block .block__content .block__content__td {
-      height: 500px;
-      overflow-y: scroll; }
-      .block .block__content .block__content__td table {
-        width: 100%; }
-      .block .block__content .block__content__td tr {
-        background: url("../img/border-dot.png") repeat-x bottom; }
-        .block .block__content .block__content__td tr:last-child {
-          background: none; }
-      .block .block__content .block__content__td td {
-        height: 85px; }
+    .block .block__content .block__content__td .text-center {
+      text-align: center;
+      margin: 20px 0; }
+    .block .block__content .block__content__td table {
+      width: 100%; }
+    .block .block__content .block__content__td tr {
+      background: url("../img/border-dot.png") repeat-x bottom; }
+      .block .block__content .block__content__td tr:last-child {
+        background: none; }
+    .block .block__content .block__content__td td {
+      height: 85px; }
     .block .block__content .block__content__td-01 {
       width: 495px;
       padding-left: 20px;

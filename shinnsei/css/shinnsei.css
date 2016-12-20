@@ -138,10 +138,16 @@
     margin-top: 10px;
     font-weight: bold;
 }
+
 .link-popup {
     cursor: pointer;
 }
+
 .blur{
     font-size: 12px;
     color: #999999;
+}
+
+.blur.normal-font {
+    font-size: 15px;
 }
