@@ -202,3 +202,42 @@
 .blur.normal-font {
     font-size: 15px;
 }
+
+p.block-text {
+    margin-bottom: 10px;
+}
+
+span.block-text {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.custom-tbl {
+    background-color: #eef2f8;
+}
+
+.custom-tbl th {
+    width: 200px;
+    vertical-align: middle;
+    font-weight: normal;
+    padding: 10px;
+}
+
+.custom-tbl td {
+    padding: 10px;
+    vertical-align: middle;
+    text-align: center;
+    background-color: #E6E6E6;
+}
+
+.custom-tbl .blue-td {
+    background-color: #dbe5f2;
+}
+
+.custom-tbl th, .custom-tbl td, .custom-tbl tr {
+    border: 2px solid #fff;
+}
+
+sup {
+    top: -0.3rem;
+}
