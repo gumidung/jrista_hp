@@ -41,13 +41,16 @@
       .block .block__content .block__content__td tr:last-child {
         background: none; }
     .block .block__content .block__content__td td {
-      height: 85px; }
+      height: 85px;
+      padding-right: 20px;
+      box-sizing: border-box; }
     .block .block__content .block__content__td-01 {
       width: 495px;
       padding-left: 20px;
       box-sizing: border-box; }
     .block .block__content .block__content__td-02 {
-      width: 170px; }
+      width: 170px;
+      box-sizing: border-box; }
 
 .page-top {
   text-align: center; }
