@@ -100,3 +100,13 @@
 .table-news .date-news.none{
     width: 820px;
 }
+
+.table-news a {
+    text-decoration: none;
+    color: #42b2e0;
+}
+
+.table-news a:hover {
+    opacity: 0.7;
+    text-decoration: underline;
+}
