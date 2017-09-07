@@ -65,6 +65,10 @@
       width: 495px;
       padding-left: 20px;
       box-sizing: border-box;
+      &.overload {
+        padding-top: 10px;
+        padding-bottom: 10px;
+      }
     }
     .block__content__td-02 {
       width: 170px;

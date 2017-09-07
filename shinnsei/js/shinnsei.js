@@ -16,7 +16,21 @@ $(document).ready(function(){
         //         win2.focus();
         //     }
         // }
-        alert("公募期間(2017年1月～2月)以外はアクセスできません。お手数ですが公募期間内に再度アクセス下さい。");
+
+         var q = new Date();
+         var m = ('0'+(q.getMonth()+1)).slice(-2);
+         var d = ('0'+q.getDate()).slice(-2);
+         var y = q.getFullYear();
+         var dateNum = y+""+m+""+d;
+
+         if (dateNum >= 20170101 && dateNum <= 20170305)
+         {
+             var win = window.open('http://bmsisr-public.steeprockinc.com', '_blank');
+             win.focus();
+         } else {
+             alert("公募期間(2017年1月～2月)以外はアクセスできません。お手数ですが公募期間内に再度アクセス下さい。");
+         }
+
     });
 
 });
